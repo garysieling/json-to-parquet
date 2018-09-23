@@ -1,0 +1,550 @@
+{
+  "id_i": {
+    "type": "INT32"
+  },
+  "transcript_s": {
+    "type": "UTF8"
+  },
+  "speakerBio_s": {
+    "type": "UTF8"
+  },
+  "download_s": {
+    "type": "UTF8"
+  },
+  "title_s": {
+    "type": "UTF8"
+  },
+  "description_s": {
+    "type": "UTF8"
+  },
+  "givenDate_s": {
+    "type": "UTF8"
+  },
+  "givenAt_s": {
+    "type": "UTF8"
+  },
+  "series_s": {
+    "type": "UTF8"
+  },
+  "tags_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "url_s": {
+    "type": "UTF8"
+  },
+  "added_date_s": {
+    "type": "UTF8"
+  },
+  "talk_type_l1_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "speakerName_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l1_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l1_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "speakerBio_ss_src": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l2_Academic_Lecture_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "amazon_id_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_day_i": {
+    "type": "INT32"
+  },
+  "talk_month_s": {
+    "type": "UTF8"
+  },
+  "talk_year_i": {
+    "type": "INT32"
+  },
+  "transcript_summary_txt": {
+    "type": "UTF8"
+  },
+  "fleschKincaidGradeLevel_f": {
+    "type": "FLOAT"
+  },
+  "ums_f": {
+    "type": "FLOAT"
+  },
+  "category_l2_Science_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "audio_length_s": {
+    "type": "UTF8"
+  },
+  "audio_url_s": {
+    "type": "UTF8"
+  },
+  "channel_balance_ff": {
+    "type": "FLOAT",
+    "repeated": true
+  },
+  "audio_snr_ff": {
+    "type": "FLOAT",
+    "repeated": true
+  },
+  "download_status_s": {
+    "type": "UTF8"
+  },
+  "auto_transcript_txt_en": {
+    "type": "UTF8"
+  },
+  "audio_length_f": {
+    "type": "FLOAT"
+  },
+  "features_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "captions": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "video_url_s": {
+    "type": "UTF8"
+  },
+  "embeddable_b": {
+    "type": "BOOLEAN"
+  },
+  "entities_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "year_i": {
+    "type": "INT32"
+  },
+  "popularity_f": {
+    "type": "FLOAT"
+  },
+  "points_i": {
+    "type": "INT32"
+  },
+  "talk_type_l2_Conference_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Technology_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Programming_Languages_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Software_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Social_Science_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Social_Sciences_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Business_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Environment_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Health_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Biology_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Information_Technology_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Politics_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Fine_Arts_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_History_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_European_history_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_University_of_Chicago_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l2_Historical_Speech_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "id": {
+    "type": "INT32"
+  },
+  "wikipedia_url_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_Internet_Archive_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Christianity_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Religion_and_Philosophy_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_City_University_of_New_York_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Harvard_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Graphic_Design_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Mobile_Development_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Project_Management_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Databases_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_DevOps_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_Smithsonian_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "clipping_f": {
+    "type": "FLOAT"
+  },
+  "collection_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Business_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "tag_s": {
+    "type": "UTF8"
+  },
+  "collection_l2_Harvard_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_University_of_North_Carolina_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_Centre_for_Inquiry_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "feature_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "block_b": {
+    "type": "BOOLEAN"
+  },
+  "talk_type_l2_Documentary_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Literature_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Music_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Literature_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_U.S._History_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Sports_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Library_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l4_Navajo_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Entertainment_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Dance_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_American_History_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l4_Dakota_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_UPenn_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_Princeton_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Books_and_literature_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Poetry_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l3_U.S._Presidents_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_AP_Archives_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Activism_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Religion_and Philosophy_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Pets_and Animals_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Nonprofits_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l2_Duke_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_l1_Historical_Speech_l2_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type_s": {
+    "type": "UTF8"
+  },
+  "playlist_s": {
+    "type": "UTF8"
+  },
+  "src_id_s": {
+    "type": "UTF8"
+  },
+  "has_download_b": {
+    "type": "BOOLEAN"
+  },
+  "speakerBio_txt": {
+    "type": "UTF8"
+  },
+  "gender_s": {
+    "type": "UTF8"
+  },
+  "has_content_b": {
+    "type": "BOOLEAN"
+  },
+  "collection_l2_Reddit_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "unique_id": {
+    "type": "UTF8"
+  },
+  "collection_l3_Documentaries_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection_l3_lectures_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "status": {
+    "type": "INT32"
+  },
+  "month_i": {
+    "type": "INT32"
+  },
+  "day_i": {
+    "type": "INT32"
+  },
+  "source_id": {
+    "type": "UTF8"
+  },
+  "collection_l2_Confreaks_tv_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "speaker_twitter_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "amazon_url_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "kerName_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "type_l1_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Christianity_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "depth": {
+    "type": "INT32"
+  },
+  "category_l3_Medicine_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Physics_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l3_Music_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l4_Music_genres_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_type": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "collection": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "category_l2_Science_Medicine_Psychology_and_psychiatry_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "directory": {
+    "type": "UTF8"
+  },
+  "talk_type_l3_Oxford_University_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "career_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "speaker_id": {
+    "type": "UTF8"
+  },
+  "collection_l2_DPLA_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_date_s": {
+    "type": "UTF8"
+  },
+  "transcript_link_s": {
+    "type": "UTF8"
+  },
+  "talk_type_Historical_Speech_l2_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "transcript_url": {
+    "type": "UTF8"
+  },
+  "transcript_url_s": {
+    "type": "UTF8"
+  },
+  "career_s": {
+    "type": "UTF8"
+  },
+  "talk_type_l3_Psychology_ss": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "type": {
+    "type": "UTF8",
+    "repeated": true
+  },
+  "talk_location_s": {
+    "type": "UTF8"
+  },
+  "category_l2_Medicine_ss": {
+    "type": "UTF8",
+    "repeated": true
+  }
+}
